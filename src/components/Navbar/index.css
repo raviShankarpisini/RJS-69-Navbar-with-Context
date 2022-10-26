@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #171f46;
+}
+
+.logo {
+  width: 50px;
+}
+.dark-nav-container {
+  background-color: #334155;
+}
+.dark-link {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
